@@ -1,0 +1,193 @@
+/* Zero Style */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/* ------------------------------------------- */
+
+body {
+    background: #F1F1EB;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 400;
+    color: #4B321D;
+    width: 1440px;
+}
+
+a {
+    color: #4B321D;
+}
+
+/* HEADER */
+
+.header {
+    margin-bottom: 84px;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.header-nav__logo {
+    display: inline-block;
+}
+
+.header-nav__list {
+    display: flex;
+    align-items: center;
+    margin-right: 283px;
+}
+
+.header-nav__item {
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.header-nav__item a:hover {
+    color: #F1F1EB;
+    text-shadow: #4B321D 0 0 3px;
+}
+
+.header-nav__item:not(:last-child) {
+    margin-right: 36px;
+}
+
+/* MAIN */
+
+.main-title {
+    font-size: 80px;
+    line-height: 125%;
+    width: 1269px;
+    margin: 0px 111px 136px 60px;
+}
+
+.main-hero {
+    margin-bottom: 90px;
+}
+
+.main_hero__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.main-hero__title {
+    font-size: 80px;
+    line-height: 125%;
+    width: 1319px;
+    margin: 0px 61px 56px 60px;
+}
+
+.main-hero__link {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #4B321D;
+    border-radius: 3px;
+    padding: 0 17px;
+    margin-left: 60px;
+}
+
+.main-hero__link:hover {
+    background: #4B321D;
+    color: #F1F1EB;
+}
+
+.main-hero__link span {
+    font-size: 20px;
+    line-height: 144%;
+}
