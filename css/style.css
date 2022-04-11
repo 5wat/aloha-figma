@@ -93,11 +93,11 @@ h6 {
 body {
   background: #f1f1eb;
   font-family: 'Poppins', sans-serif;
-  margin: 0 auto;
-  padding: 0;
+  margin: 0px auto;
+  padding: 0px;
   font-weight: 400;
   color: #4b321d;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 a {
@@ -112,7 +112,6 @@ img:not(#logo) {
 
 main img {
   max-width: 590px;
-  max-height: 886px;
 }
 
 #link {
@@ -137,7 +136,7 @@ main img {
 h1 {
   font-size: 80px;
   line-height: 125%;
-  width: 1269px;
+  max-width: 1269px;
   margin: 0px 111px 136px 60px;
 }
 
@@ -148,7 +147,7 @@ h2 {
 }
 
 h3 {
-  width: 601px;
+  max-width: 601px;
   font-size: 38px;
   line-height: 116%;
   margin-bottom: 45px;
@@ -166,8 +165,8 @@ h4 {
 }
 
 .container {
-  width: 1320px;
-  margin: 0 auto;
+  max-width: 1320px;
+  margin: 0px auto;
 }
 
 .header-nav {
@@ -184,6 +183,7 @@ h4 {
   display: flex;
   align-items: center;
   margin-right: 283px;
+  margin-left: 36px;
 }
 
 .header-nav__item {
@@ -204,33 +204,31 @@ h4 {
 
 .hero {
   display: block;
-  margin: 0 auto;
+  margin: 0px auto;
   margin-bottom: 84px;
-  max-width: 1400px;
-  max-height: 928px;
 }
 
 .main-title {
-  margin: 0 auto 84px;
-  width: 1320px;
+  margin: 0px auto 84px;
+  max-width: 1320px;
 }
 
 .main-content {
   display: flex;
   justify-content: space-between;
-  width: 1320px;
-  margin: 0 auto 90px;
+  max-width: 1320px;
+  margin: 0px auto 90px;
 }
 
 .main-content__blok {
-  width: 630px;
-  margin: auto 0;
+  max-width: 630px;
+  margin: auto 0px;
 }
 
 .main-bottom {
   background-color: #4b321d;
   border-radius: 16px;
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto 84px;
   box-shadow: 0 0 15px 5px rgba(75, 50, 29, 0.2);
 }
@@ -248,3 +246,44 @@ h4 {
 }
 
 /* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 60px 0px 60px;
+  padding-bottom: 100px;
+}
+
+.footer-coperait__text {
+  margin-bottom: 83px;
+  font-size: 18px;
+  line-height: 160%;
+}
+.footer-coperait__logo {
+  height: 57px;
+  width: 50px;
+}
+.footer-sitemap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-sitemap a:hover {
+  color: #f1f1eb;
+  text-shadow: #4b321d 0 0 3px;
+}
+
+.footer-sitemap__links {
+  margin-right: 178px;
+  font-size: 18px;
+  line-height: 160%;
+}
+.footer-sitemap__works {
+  margin-right: 178px;
+  font-size: 18px;
+  line-height: 160%;
+}
+.footer-sitemap__socialMedia {
+  font-size: 18px;
+  line-height: 160%;
+}
