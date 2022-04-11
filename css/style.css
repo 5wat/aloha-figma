@@ -1,10 +1,10 @@
 /* Zero Style */
+
 * {
   padding: 0;
   margin: 0;
   border: 0;
 }
-
 *,
 *:before,
 *:after {
@@ -12,12 +12,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 :focus,
 :active {
   outline: none;
 }
-
 a:focus,
 a:active {
   outline: none;
@@ -51,29 +49,23 @@ textarea {
 input::-ms-clear {
   display: none;
 }
-
 button {
   cursor: pointer;
 }
-
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-
 a,
 a:visited {
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 ul li {
   list-style: none;
 }
-
 img {
   vertical-align: top;
 }
@@ -90,200 +82,92 @@ h6 {
 
 /* ------------------------------------------- */
 
-body {
-  background: #f1f1eb;
-  font-family: 'Poppins', sans-serif;
-  margin: 0px auto;
-  padding: 0px;
-  font-weight: 400;
-  color: #4b321d;
-  max-width: 1440px;
-}
-
-a {
-  color: #4b321d;
-}
-
-img:not(#logo) {
-  box-shadow: 0 0 15px 5px rgba(75, 50, 29, 0.2);
-  border-radius: 16px;
-  max-width: 100%;
-}
-
-main img {
-  max-width: 590px;
-}
-
-#link {
-  display: inline-block;
-  height: 50px;
-  line-height: 50px;
-  border: 2px solid #4b321d;
-  border-radius: 3px;
-  padding: 0 17px;
-}
-
-#link:hover {
-  background: #4b321d;
-  color: #f1f1eb;
-}
-
-#link span {
-  font-size: 20px;
-  line-height: 144%;
-}
-
-h1 {
-  font-size: 80px;
-  line-height: 125%;
-  max-width: 1269px;
-  margin: 0px 111px 136px 60px;
-}
-
-h2 {
-  font-size: 80px;
-  line-height: 125%;
-  margin-bottom: 56px;
-}
-
-h3 {
-  max-width: 601px;
-  font-size: 38px;
-  line-height: 116%;
-  margin-bottom: 45px;
-}
-
-h4 {
-  font-size: 26px;
-  line-height: 140%;
-}
-
-/* HEADER */
-
-.header {
-  margin-bottom: 84px;
-}
-
 .container {
   max-width: 1320px;
   margin: 0px auto;
 }
 
+/* HEADER */
+
+.header {
+}
 .header-nav {
-  display: flex;
-  padding: 40px 0;
-  justify-content: space-between;
 }
-
-.header-nav__logo {
-  display: inline-block;
+.header-logo__link {
 }
-
+.header-logo {
+}
 .header-nav__list {
-  display: flex;
-  align-items: center;
-  margin-right: 283px;
-  margin-left: 36px;
 }
-
 .header-nav__item {
-  font-size: 18px;
-  line-height: 160%;
 }
-
-.header-nav__item a:hover {
-  color: #f1f1eb;
-  text-shadow: #4b321d 0 0 3px;
-}
-
-.header-nav__item:not(:last-child) {
-  margin-right: 36px;
+.header-nav__link {
 }
 
 /* MAIN */
 
-.hero {
-  display: block;
-  margin: 0px auto;
-  margin-bottom: 84px;
+.main {
 }
-
 .main-title {
-  margin: 0px auto 84px;
-  max-width: 1320px;
 }
-
+.main-hero {
+}
+.main-hero__img {
+}
+.main-hero__title {
+}
+.main-title__secondary {
+}
+.main-button__link {
+}
+.main-button__text {
+}
 .main-content {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1320px;
-  margin: 0px auto 90px;
 }
-
+.main-content__img {
+}
 .main-content__blok {
-  max-width: 630px;
-  margin: auto 0px;
 }
-
+.main-content__title {
+}
 .main-bottom {
-  background-color: #4b321d;
-  border-radius: 16px;
-  max-width: 1400px;
-  margin: 0 auto 84px;
-  box-shadow: 0 0 15px 5px rgba(75, 50, 29, 0.2);
 }
-
-.main-bottom h2 {
-  display: inline-block;
-  color: #f1f1eb;
-  margin: 84px 159px 45px 60px;
+.main-bottom__text {
 }
-
-.main-bottom h4 {
-  display: inline-block;
-  color: #f1f1eb;
-  margin: 0px 1022px 110px 60px;
+.main-bottom__content {
 }
 
 /* FOOTER */
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 100px 60px 0px 60px;
-  padding-bottom: 100px;
 }
-
-.footer-coperait__text {
-  margin-bottom: 83px;
-  font-size: 18px;
-  line-height: 160%;
+.footer-coperait {
+}
+.footer-coperait__list {
+}
+.footer-coperait__item {
+}
+.footer-coperait__link {
 }
 .footer-coperait__logo {
-  height: 57px;
-  width: 50px;
 }
 .footer-sitemap {
-  display: flex;
-  justify-content: space-between;
 }
-
-.footer-sitemap a:hover {
-  color: #f1f1eb;
-  text-shadow: #4b321d 0 0 3px;
+.footer-sitemap__list {
 }
-
-.footer-sitemap__links {
-  margin-right: 178px;
-  font-size: 18px;
-  line-height: 160%;
+.footer-sitemap__item {
 }
-.footer-sitemap__works {
-  margin-right: 178px;
-  font-size: 18px;
-  line-height: 160%;
+.footer-sitemap__link {
 }
-.footer-sitemap__socialMedia {
-  font-size: 18px;
-  line-height: 160%;
+.footer-works__list {
+}
+.footer-works__item {
+}
+.footer-works__link {
+}
+.footer-socialmedia {
+}
+.footer-socialmedia__item {
+}
+.footer-socialmedia__link {
 }

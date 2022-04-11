@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="icon" href="img/pic/logoPalm.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/pic/logoPalm.svg" type="image/x-icon" />
   </head>
 
   <body>
@@ -14,79 +16,132 @@
     <header class="header">
       <div class="container">
         <nav class="header-nav">
-          <img id="logo" src="img/pic/logoAloha.svg" alt="alohaLogo" class="header-nav__logo" />
+          <a href="#" class="header-logo__link">
+            <img class="header-logo" src="img/pic/logoAloha.svg" alt="Aloha Logo" />
+          </a>
           <ul class="header-nav__list">
-            <li class="header-nav__item"><a href="#">Projects</a></li>
-            <li class="header-nav__item"><a href="#">About</a></li>
-            <li class="header-nav__item"><a href="#">Blog</a></li>
-            <li class="header-nav__item"><a href="#">Contact</a></li>
+            <li class="header-nav__item"><a class="header-nav__link" href="#">Projects</a></li>
+            <li class="header-nav__item"><a class="header-nav__link" href="#">About</a></li>
+            <li class="header-nav__item"><a class="header-nav__link" href="#">Blog</a></li>
+            <li class="header-nav__item"><a class="header-nav__link" href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <!-- MAIN -->
-    <main>
-      <h1>Creating purpose-built brands & websites</h1>
-      <img src="img/hero.png" alt="man" class="hero" />
-      <div class="main-title">
-        <h2>I help emerging brands get their footing in today's digital world.</h2>
-        <a id="link" href="#"><span>See my work</span></a>
-      </div>
-      <div class="main-content">
-        <img src="img/bikeMan.png" alt="bikeMan" class="main-content__img" />
-        <div class="main-content__blok">
-          <h3>My services are perfect for companies that are just getting started</h3>
-          <a id="link" href="#"><span>Learn more</span></a>
+    <main class="main">
+      <section class="container">
+        <h1 class="main-title">Creating purpose-built brands & websites</h1>
+      </section>
+      <section class="container">
+        <div class="main-hero">
+          <img class="main-hero__img" src="img/hero.png" alt="Man at the table" />
+          <div class="main-hero__title">
+            <h2 class="main-title__secondary">
+              I help emerging brands get their footing in today's digital world.
+            </h2>
+            <a class="main-button__link" href="#">
+              <span class="main-button__text">See my work</span>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="main-content">
-        <div class="main-content__blok">
-          <h3>I'm always on the go. Follow along!</h3>
-          <a id="link" href="#"><span>@aloha</span></a>
+      </section>
+      <section class="container">
+        <div class="main-content">
+          <img class="main-content__img" src="img/bikeMan.png" alt="bikeMan" />
+          <div class="main-content__blok">
+            <h3 class="main-content__title">
+              My services are perfect for companies that are just getting started
+            </h3>
+            <a class="main-button__link" href="#">
+              <span class="main-button__text">Learn more</span>
+            </a>
+          </div>
         </div>
-        <img src="img/seaCar.png" alt="seaCar" class="main-content__img" />
-      </div>
-      <div class="main-bottom">
-        <h2>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</h2>
-        <h4>Full Name, CEO at Client</h4>
-      </div>
-      <div class="main-title">
-        <h2>Seem like a good fit?</h2>
-        <a id="link" href="#"><span>Let's talk!</span></a>
-      </div>
+      </section>
+      <section class="container">
+        <div class="main-content">
+          <div class="main-content__blok">
+            <h3 class="main-content__title">I'm always on the go. Follow along!</h3>
+            <a class="main-button__link" href="#">
+              <span class="main-button__text">@aloha</span>
+            </a>
+          </div>
+          <img class="main-content__img" src="img/seaCar.png" alt="seaCar" />
+        </div>
+      </section>
+      <section class="container">
+        <div class="main-bottom">
+          <p class="main-title__secondary">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          </p>
+          <p class="main-bottom__text">Full Name, CEO at Client</p>
+        </div>
+      </section>
+      <section class="container">
+        <div class="main-bottom__content">
+          <h2 class="main-title__secondary">Seem like a good fit?</h2>
+          <a class="main-button__link" href="#">
+            <span class="main-button__text">Let's talk!</span>
+          </a>
+        </div>
+      </section>
     </main>
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="footer-coperait">
-        <ul class="footer-coperait__text">
-          <li>© Aloha</li>
-          <li>Powered by Webflow.</li>
-        </ul>
-        <img id="logo" src="img/pic/logoPalm.svg" alt="palm" class="footer-coperait__logo" />
-      </div>
-      <div class="footer-sitemap">
-        <ul class="footer-sitemap__links">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Licenses</a></li>
-          <li><a href="#">Style Guide</a></li>
-          <li><a href="#">Changelog</a></li>
-          <li><a href="#">Password</a></li>
-          <li><a href="#">404</a></li>
-        </ul>
-        <ul class="footer-sitemap__works">
-          <li><a href="#">Home 1</a></li>
-          <li><a href="#">Home 2</a></li>
-          <li><a href="#">Work 1</a></li>
-          <li><a href="#">Work 2</a></li>
-          <li><a href="#">Blog 1</a></li>
-          <li><a href="#">Blog 2</a></li>
-        </ul>
-        <ul class="footer-sitemap__socialMedia">
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Facebook</a></li>
-        </ul>
+      <div class="container">
+        <div class="footer-coperait">
+          <ul class="footer-coperait__list">
+            <li class="footer-coperait__item">© Aloha</li>
+            <li class="footer-coperait__item">
+              Powered by
+              <a class="footer-coperait__link" href="https://github.com/5wat">5wat</a>
+            </li>
+          </ul>
+          <img class="footer-coperait__logo" src="img/pic/logoPalm.svg" alt="Palm" />
+        </div>
+        <div class="footer-sitemap">
+          <ul class="footer-sitemap__list">
+            <li class="footer-sitemap__item">
+              <a class="footer-sitemap__link" href="#">About</a>
+            </li>
+            <li class="footer-sitemap__item">
+              <a class="footer-sitemap__link" href="#">Contact</a>
+            </li>
+            <li class="footer-sitemap__item">
+              <a class="footer-sitemap__link" href="#">Licenses</a>
+            </li>
+            <li class="footer-sitemap__item">
+              <a class="footer-sitemap__link" href="#">Style Guide</a>
+            </li>
+            <li class="footer-sitemap__item">
+              <a class="footer-sitemap__link" href="#">Changelog</a>
+            </li>
+            <li class="footer-sitemap__item">
+              <a class="footer-sitemap__link" href="#">Password</a>
+            </li>
+            <li class="footer-sitemap__item"><a class="footer-sitemap__link" href="#">404</a></li>
+          </ul>
+          <ul class="footer-works__list">
+            <li class="footer-works__item"><a class="footer-works__link" href="#">Home 1</a></li>
+            <li class="footer-works__item"><a class="footer-works__link" href="#">Home 2</a></li>
+            <li class="footer-works__item"><a class="footer-works__link" href="#">Work 1</a></li>
+            <li class="footer-works__item"><a class="footer-works__link" href="#">Work 2</a></li>
+            <li class="footer-works__item"><a class="footer-works__link" href="#">Blog 1</a></li>
+            <li class="footer-works__item"><a class="footer-works__link" href="#">Blog 2</a></li>
+          </ul>
+          <ul class="footer-socialmedia">
+            <li class="footer-socialmedia__item">
+              <a class="footer-socialmedia__link" href="#">Twitter</a>
+            </li>
+            <li class="footer-socialmedia__item">
+              <a class="footer-socialmedia__link" href="#">Instagram</a>
+            </li>
+            <li class="footer-socialmedia__item">
+              <a class="footer-socialmedia__link" href="#">Facebook</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
