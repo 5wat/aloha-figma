@@ -153,6 +153,12 @@ body {
   margin-right: 36px;
 }
 
+.header-nav__item:hover {
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 0.25s;
+}
+
 .header-nav__link {
   color: var(--main-color);
 }
@@ -196,6 +202,8 @@ body {
   padding: 0px 17px;
   height: 50px;
   line-height: 50px;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
 }
 .main-button__link:hover {
   background: var(--main-color);
@@ -279,6 +287,8 @@ body {
 }
 .footer-coperait__item {
 }
+.footer-coperait__link {
+}
 .footer-coperait__logo {
 }
 .footer-sitemap {
@@ -290,6 +300,13 @@ body {
 }
 .footer-sitemap__item {
 }
+
+.footer-sitemap__item:hover {
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 0.25s;
+}
+
 .footer-sitemap__link {
 }
 .footer-works__list {
@@ -297,12 +314,26 @@ body {
 }
 .footer-works__item {
 }
+
+.footer-works__item:hover {
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 0.25s;
+}
+
 .footer-works__link {
 }
 .footer-socialmedia__list {
 }
 .footer-socialmedia__item {
 }
+
+.footer-socialmedia__item:hover {
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 0.25s;
+}
+
 .footer-socialmedia__link {
 }
 
